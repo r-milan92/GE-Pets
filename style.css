@@ -7,6 +7,8 @@
 [hidden]{display:none!important}.product-image{background:radial-gradient(ellipse at 100% 90%,#bdcfa855,transparent 65%),#edf2e7}.onco .product-image{background:radial-gradient(ellipse at 100% 90%,#d5c0cb55,transparent 65%),#f2edef;color:#553c4b}.collection-number{position:absolute;right:28px;top:24px;font-size:12px;opacity:.45}.onco .product-category{border-color:#d8cbd2;color:#725668}.product-image{height:345px}@media(max-width:760px){.product-image{height:320px}}
 
 .brand{gap:0;letter-spacing:-.045em}
+.product-details h4{margin:20px 0 8px;font-size:15px;font-weight:600;line-height:1.4;color:var(--ink)}
+.product-details h4:first-child{margin-top:0}
 .product-image{height:auto;aspect-ratio:1672 / 941}
 .product-pack{position:absolute;inset:0;display:block;filter:none}
 .product-pack img{width:100%;height:100%;max-width:100%;max-height:100%;padding:0;object-fit:cover;mix-blend-mode:normal;filter:none}

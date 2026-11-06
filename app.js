@@ -82,7 +82,6 @@ contactForm.addEventListener('submit', async event => {
   event.preventDefault();
   if (contactSending || contactForm.elements._honey.value.trim()) return;
   const payload = contactValues();
-  payload._url = window.location.origin + window.location.pathname + '#kontakt';
   updateContactMailLinks();
   contactFeedback.hidden = true;
   contactSending = true;
